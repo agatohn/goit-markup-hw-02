@@ -1,14 +1,31 @@
-body {
-  background-color: #e5e5e5;
-  color: #757575;
+/* цвет заголовков и ссылок #212121 */
+/* цвет активных ссылок и кнопки #2196F3 */
+/* цвет текстовых блоков, должности и номера телефона в хедере #757575 */
+/* фон #E5E5E5 */
+/* вторичный фон #2F303A*/
+/* фон хедера и цвет текста активных кнопок  #FFFFFF*/
+/* третий цвет фона и цвет неактивных кнопок портфолио #F5F4FA */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #2f303a;
+  --tertiary-background-color: #f5f4fa;
+  --primary-white-color: #ffffff;
 }
 .list {
   list-style: none;
 }
-/* цвет заголовков и ссылок #212121 */
-/* цвет активных ссылок #2196F3 */
-/* цвет текстовых блоков #757575 */
-/* вторичный фон #2F303A*/
+
+body {
+  background-color: #e5e5e5;
+  color: #757575;
+}
+
+}
+
 .header {
   background-color: #ffffff;
 }
@@ -22,7 +39,8 @@ body {
 .header-nav .link:focus {
   color: #2196f3;
 }
-.header-links {
+.header-nav .link.current {
+  color: red;
 }
 .section-title {
 }
