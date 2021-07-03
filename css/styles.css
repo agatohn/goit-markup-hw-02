@@ -1,0 +1,28 @@
+body {
+  background-color: #e5e5e5;
+  color: #757575;
+}
+.list {
+  list-style: none;
+}
+/* цвет заголовков и ссылок #212121 */
+/* цвет активных ссылок #2196F3 */
+/* цвет текстовых блоков #757575 */
+/* вторичный фон #2F303A*/
+.header {
+  background-color: #ffffff;
+}
+.header-logo {
+  color: #000000;
+}
+.header-nav .link {
+  color: #212121;
+}
+.header-nav .link:hover,
+.header-nav .link:focus {
+  color: #2196f3;
+}
+.header-links {
+}
+.section-title {
+}
