@@ -87,6 +87,14 @@ body {
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 /* features */
 .features-item-title {
@@ -171,4 +179,31 @@ body {
 .footer-links .link:hover,
 .footer-links .link:focus {
   color: var(--accent-color);
+}
+
+/* portfolio section */
+.filters-button {
+  background-color: var(--tertiary-background-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.filters-button:hover,
+.filters-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.our-works-item-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.our-works-item-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
