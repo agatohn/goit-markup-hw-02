@@ -153,7 +153,7 @@ body {
   background-color: var(--secondary-background-color);
 }
 .footer-logo {
-  color: #000000;
+  color: var(--primary-white-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
