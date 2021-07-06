@@ -164,7 +164,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #ffffff;
+  color: var(--primary-background-color);
 }
 .footer-logo-alt {
   color: #2196f3;
