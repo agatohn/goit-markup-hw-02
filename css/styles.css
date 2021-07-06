@@ -20,7 +20,7 @@
 }
 .link {
   text-decoration: none;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   color: #212121;
 }
 
